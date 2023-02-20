@@ -26,7 +26,7 @@ def CreatePieChart(labels, values):
 '''
     Create a Socket Server to connect with the Client
 '''
-def server():
+def Server():
     labels = []
     values = []
 
@@ -66,7 +66,7 @@ def server():
         print("Closing connection...")
 
         # Restart the socket server
-        server()
+        Server()
 
 # Start up the socket server
-server()
+Server()
